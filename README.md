@@ -225,22 +225,20 @@ All user-facing strings in the theme are wrapped in `__()`, `_e()`, `esc_html__(
 
 This theme aims to follow the [WordPress Theme Handbook](https://developer.wordpress.org/themes/) requirements:
 
-- ✅ **Required files**: `style.css` (with proper header), `index.php`
-- ✅ **Standard template hierarchy**: single, page, archive, search, 404, comments
-- ✅ **`get_template_part()`** for reusable markup
-- ✅ **`wp_head()` and `wp_footer()`** hooks called
-- ✅ **`wp_body_open()`** hook called immediately after `<body>`
-- ✅ **All output escaped** with `esc_html()`, `esc_attr()`, `esc_url()`, `wp_kses_post()`, etc.
-- ✅ **Internationalized**: text domain on every string, loaded via `load_theme_textdomain()`
-- ✅ **Pluggable functions** wrapped in `function_exists()` checks
-- ✅ **Defined constants** for theme version
-- ✅ **`ABSPATH` guard** at the top of every PHP file (prevents direct access)
-- ✅ **No deprecated functions**
-- ✅ **`add_theme_support()`** for title-tag, post-thumbnails, html5, automatic-feed-links, custom-logo, align-wide, responsive-embeds
-- ✅ **Content width** declared
-- ✅ **GPL v2-or-later license**
-
-To validate before publishing to wp.org, run the [Theme Check plugin](https://wordpress.org/plugins/theme-check/) — install it, activate, then go to **Appearance → Theme Check**, select this theme, and click **Check it!**.
+- **Required files**: `style.css` (with proper header), `index.php`
+- **Standard template hierarchy**: single, page, archive, search, 404, comments
+- **`get_template_part()`** for reusable markup
+- **`wp_head()` and `wp_footer()`** hooks called
+- **`wp_body_open()`** hook called immediately after `<body>`
+- **All output escaped** with `esc_html()`, `esc_attr()`, `esc_url()`, `wp_kses_post()`, etc.
+- **Internationalized**: text domain on every string, loaded via `load_theme_textdomain()`
+- **Pluggable functions** wrapped in `function_exists()` checks
+- **Defined constants** for theme version
+- **`ABSPATH` guard** at the top of every PHP file (prevents direct access)
+- **No deprecated functions**
+- **`add_theme_support()`** for title-tag, post-thumbnails, html5, automatic-feed-links, custom-logo, align-wide, responsive-embeds
+- **Content width** declared
+- **GPL v2-or-later license**
 
 ---
 
