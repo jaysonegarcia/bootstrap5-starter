@@ -277,16 +277,10 @@ Then select it from the **Page Attributes** box when editing a page.
 **Q: Bootstrap's JS isn't working — why?**
 A: Open your browser DevTools → Console. The most common cause is a plugin loading an old jQuery + Bootstrap 4 alongside. Bootstrap 5 doesn't need jQuery; check that no other plugin is bundling Bootstrap 4.
 
-**Q: Is this theme compatible with WooCommerce / Elementor / [plugin X]?**
-A: It's plain WordPress, so generally yes. WooCommerce works out of the box but won't have themed product templates — you'd need to add `woocommerce.php` or override individual templates. Elementor and other builders work fine since they replace the content area.
-
 ---
 
 ## Roadmap / Ideas
 
-- [ ] Optional `woocommerce.php` template for shop sites
-- [ ] Block patterns (hero, feature grid, testimonials)
-- [ ] `theme.json` for global styles in the block editor
 - [ ] Dark mode toggle using Bootstrap 5.3's color modes
 - [ ] CLI scaffolder (`npx create-bootstrap5-starter my-theme`)
 
