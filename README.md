@@ -1,7 +1,7 @@
 # Bootstrap 5 Starter — WordPress Theme
 
-A clean, minimal **WordPress starter theme** built with **Bootstrap 5**.
-Designed for beginners — no build tools, no Composer, no npm. Just drop it into your `wp-content/themes/` folder and go.
+A clean, modern **WordPress starter theme** built with **Bootstrap 5**.
+Designed to be easy to set up and easy to customize — activate it and you have a working Bootstrap-powered site.
 
 > Think of it as a friendly, well-commented blank canvas. Read the code, change what you need, and you'll learn how WordPress themes work along the way.
 
@@ -57,7 +57,7 @@ Designed for beginners — no build tools, no Composer, no npm. Just drop it int
 | MySQL / MariaDB | 5.7 / 10 | latest      |
 | Browser         | any modern browser (Chrome, Firefox, Safari, Edge) |
 
-No Node, npm, Composer, or build tools required.
+That's it — install the theme and you're ready to go.
 
 ---
 
