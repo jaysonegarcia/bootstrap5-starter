@@ -17,6 +17,7 @@ Designed to be easy to set up and easy to customize — activate it and you have
 6. [Customizing the Theme](#customizing-the-theme)
    - [Change colors and fonts](#change-colors-and-fonts)
    - [Add a logo](#add-a-logo)
+   - [Edit the footer text](#edit-the-footer-text)
    - [Set up menus](#set-up-menus)
    - [Add widgets to the sidebar](#add-widgets-to-the-sidebar)
    - [Switch from CDN to local Bootstrap](#switch-from-cdn-to-local-bootstrap)
@@ -123,6 +124,7 @@ bootstrap5-starter/
 ├── .gitignore
 ├── inc/
 │   ├── class-bs5-nav-walker.php   Converts WP menus to Bootstrap navbar markup
+│   ├── customizer.php             Appearance → Customize → Footer (editable copyright + credit toggle)
 │   ├── template-tags.php          Reusable display functions (date, author, pagination)
 │   └── template-functions.php     Hook-based tweaks (body classes, password form, etc.)
 ├── template-parts/
@@ -159,6 +161,15 @@ For more control, edit `style.css` directly.
 ### Add a logo
 
 **Appearance → Customize → Site Identity → Select Logo**. The theme already supports it via `add_theme_support( 'custom-logo' )` in `functions.php`.
+
+### Edit the footer text
+
+**Appearance → Customize → Footer**. You'll find two controls:
+
+- **Copyright text** — anything you type here appears in the footer. Use `[year]` to show the current year automatically, and `[site_name]` to pull in your Site Title. Basic HTML is allowed.
+- **Show "Powered by WordPress" credit** — uncheck to hide the small theme attribution line.
+
+No PHP required.
 
 ### Set up menus
 

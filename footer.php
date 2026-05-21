@@ -16,25 +16,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<p class="mb-2">
-						<?php
-						printf(
-							/* translators: 1: year, 2: site name */
-							esc_html__( '&copy; %1$s %2$s. All rights reserved.', 'bootstrap5-starter' ),
-							esc_html( gmdate( 'Y' ) ),
-							esc_html( get_bloginfo( 'name' ) )
-						);
-						?>
-					</p>
-					<p class="small text-muted mb-0">
-						<?php
-						printf(
-							/* translators: %s: theme name with link */
-							esc_html__( 'Powered by WordPress &middot; Theme: %s', 'bootstrap5-starter' ),
-							'<a href="https://github.com/jaysonegarcia/bootstrap5-starter">Bootstrap 5 Starter</a>'
-						);
-						?>
-					</p>
+					<p class="mb-2"><?php echo bs5_starter_get_footer_copyright(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- escaped inside helper. ?></p>
+					<?php if ( bs5_starter_show_footer_credit() ) : ?>
+						<p class="small text-muted mb-0">
+							<?php
+							printf(
+								/* translators: %s: theme name with link */
+								esc_html__( 'Powered by WordPress &middot; Theme: %s', 'bootstrap5-starter' ),
+								'<a href="https://github.com/jaysonegarcia/bootstrap5-starter">Bootstrap 5 Starter</a>'
+							);
+							?>
+						</p>
+					<?php endif; ?>
 				</div>
 
 				<?php if ( has_nav_menu( 'footer' ) ) : ?>

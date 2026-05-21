@@ -179,3 +179,8 @@ require get_template_directory() . '/inc/template-tags.php';
  * Miscellaneous theme functions and tweaks.
  */
 require get_template_directory() . '/inc/template-functions.php';
+
+/**
+ * Customizer settings (footer text, theme credit toggle).
+ */
+require get_template_directory() . '/inc/customizer.php';
