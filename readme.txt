@@ -8,11 +8,11 @@ Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A clean, minimal WordPress starter theme built with Bootstrap 5. Perfect for beginners learning WordPress theme development.
+A clean, modern Bootstrap 5 theme — easy to set up, easy to customize.
 
 == Description ==
 
-Bootstrap 5 Starter is a classic, beginner-friendly WordPress theme that pairs the familiar WordPress template hierarchy with the popular Bootstrap 5 CSS framework. It is designed to be a clear, well-commented starting point — no build tools, no Composer, no npm required. Drop the folder into wp-content/themes/, activate, and start building.
+Bootstrap 5 Starter is a clean, beginner-friendly WordPress theme that pairs the familiar WordPress template hierarchy with the popular Bootstrap 5 CSS framework. It is a clear, well-commented starting point you can activate and customize right away — ideal as a foundation for blogs, business sites, or a learning project.
 
 = Highlights =
 
@@ -62,7 +62,7 @@ Use Appearance > Customize > Additional CSS for small tweaks, or override Bootst
 
 = Where do I report bugs or suggest features? =
 
-Open an issue at the GitHub repository linked in the theme description.
+Visit the Theme URI link on this listing, or open an issue at https://github.com/jaysonegarcia/bootstrap5-starter.
 
 == Changelog ==
 
