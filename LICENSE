@@ -1,0 +1,26 @@
+Bootstrap 5 Starter — WordPress Theme
+Copyright (C) 2026  Jayson Garcia
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License, version 2,
+as published by the Free Software Foundation.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+MA 02110-1301 USA.
+
+Full license text: https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt
+
+---
+
+Third-party assets:
+
+Bootstrap (https://getbootstrap.com/) is distributed under the MIT License.
+Copyright (c) 2011-2024 The Bootstrap Authors.
+Full license: https://github.com/twbs/bootstrap/blob/main/LICENSE
